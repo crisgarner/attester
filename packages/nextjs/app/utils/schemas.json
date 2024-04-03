@@ -1,0 +1,12 @@
+{
+    "events": [
+      {
+        "id": "0",
+        "name": "Post ETH LATAM Get Together 🇭🇳✨",
+        "description": "Post ETH LATAM Get Together, organizado por Ethereum Tegucigalpa. Este evento es la oportunidad perfecta para conectar con la comunidad, compartir ideas y disfrutar de un ambiente lleno de energía y entusiasmo.",
+        "startDate": "2024-04-06T09:30:00",
+        "endDate": "2024-04-06T11:00:00",
+        "location": "Tegucigalpa"
+      }
+    ]
+  }

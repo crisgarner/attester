@@ -38,7 +38,10 @@ const Home: NextPage = () => {
         </>,
       );
     } else {
-      notification.error("Invalid Address");
+      const addr = (value as string).substring((value as string).indexOf(":") + 1, (value as string).lastIndexOf("@"));
+      if (isAddress(addr)) {
+        setReceiverAddress(addr);
+      }
     }
     setOpenQr(false);
   };

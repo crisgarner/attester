@@ -15,9 +15,7 @@ import { notification } from "~~/utils/scaffold-eth";
 
 const Home: NextPage = () => {
   const { address: connectedAddress } = useAccount();
-
-  const [receiverAddress, setReceiverAddress] = useState("0x6A6891fb9589F021E6430e6AB0947E0917EDDD01");
-  //   const [receiverAddress, setReceiverAddress] = useState("0x0000000000000000000000000000000000000000");
+  const [receiverAddress, setReceiverAddress] = useState("0x0000000000000000000000000000000000000000");
   const [openQr, setOpenQr] = useState<boolean>(false);
   const schemaUID = "0x3f60dfeb9434008892fd3bf2470126cc44930a688ec7231168948efb2b1aa6f9";
   const [event, setEvent] = useState(schemas.events[0]);
